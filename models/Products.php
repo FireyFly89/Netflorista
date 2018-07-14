@@ -11,7 +11,7 @@ use Yii;
  * @property string $name
  * @property string $type
  * @property int $price
- * @property string $image
+ * @property string $upload
  * @property int $available
  * @property string $created_at
  * @property string $updated_at

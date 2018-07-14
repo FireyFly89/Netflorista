@@ -17,7 +17,7 @@ class m180713_133956_create_products_table extends Migration
 	        'name' => $this->string()->notNull(),
 	        'type' => $this->string()->notNull(),
 	        'price' => $this->integer()->notNull(),
-	        'image' => $this->string()->notNull(),
+	        'image' => $this->string(),
 	        'available' => $this->tinyInteger()->defaultValue(0),
 	        'created_at' => $this->datetime()->notNull(),
 	        'updated_at' => $this->datetime(),
